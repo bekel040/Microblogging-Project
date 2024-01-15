@@ -1,0 +1,47 @@
+include ../templates/firstnavbar
+
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    |     
+    title Coffee Chat
+    |     
+    link(href='css/main.css', rel='stylesheet')
+    |     
+    link(href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css', rel='stylesheet')
+    |     
+    script(src='js/loginpage.js')
+  |   
+  body.mode
+    .main-page
+      +firstnavBar  
+      |
+      .top-half
+        .top.left
+          h1  Lets Chat Over Coffee 
+      |       
+      .bottom-half
+        |
+        .message-banner(style='display: none;')
+        |
+        .form
+          form#login
+            .login-box
+              label(for='username')  
+              |                     
+              input#username(type='text', name='username', placeholder='Username', required='')
+              |                     
+              i.bx.bx-user-pin
+            |                 
+            .login-box
+              label(for='password')  
+              |                     
+              input#password(type='password', name='password', placeholder='Password', required='')
+              |                     
+              i.bx.bx-lock
+            |                 
+            button.submitbttn(type='button')  Login
+            |                 
+            button.createbttn(type='button')  Create Account
+            

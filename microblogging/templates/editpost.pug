@@ -1,0 +1,38 @@
+include ../templates/secondnavbar
+
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    |         
+    title Update Post
+    |         
+    link(href='css/chatroom.css', rel='stylesheet')
+    |
+    link(href='css/main.css', rel='stylesheet')
+    |         
+    link(href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css', rel='stylesheet')
+    |
+    link(href='https://api.fontshare.com/v2/css?f[]=comico@400&f[]=bespoke-stencil@700,400&f[]=boxing@400&f[]=telma@700,400&f[]=zina@400&display=swap', rel='stylesheet')
+    |         
+    script(src='js/chatroom.js')
+  |     
+  body
+    .main
+      +secondnavBar   
+      |
+      h2  Update Post
+      |       
+      .antohercontainer
+          .updating 
+            label(for='update_input')  
+            |                       
+            input#update_input(type='text', name='update_input', placeholder='Write your post here', required='' maxlength='280')
+            |
+            button.updatebttn(type='button')  Post
+            |
+            .message-banner(style='display: none;')
+
+
+
+            

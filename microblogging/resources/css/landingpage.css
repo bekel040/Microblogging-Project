@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Gravitas+One&family=Space+Mono&display=swap');
+
+
+
+.logo .chat {
+  font-size: 10em;
+  font-family: 'Neco', Bold; 
+  color: #824332;
+  position: absolute;
+  top: 32%;
+  left: 8%;
+}
+.logo .chat2 {
+  font-size: 10em;
+  font-family: 'Neco', Bold; 
+  color: #824332;
+  position: absolute;
+  top: 32%;
+  left: 58%;
+}
+
+.logo .intro{
+  font-size: 4em;
+    
+  font-family: 'Neco', Bold; 
+  color: #824332;
+  position: absolute;
+  top: 26%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+
+}
+
+/* landing page  */
+nav {
+  margin: 0;
+}
+.main{
+    margin-top: 1em;
+    background-color: #F2DCC4;
+    border-radius: 1em;
+    max-width: 97%;
+    margin: 0 auto;
+
+
+}
+.page-links {
+  background-color: #FCFCFD;
+
+  list-style: none;
+  padding: 0.5em;
+  display: flex;
+  margin: 0;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  border-bottom: 3px solid #6C3829;
+}
+.page-links li {
+  margin-right: 2rem;
+}
+
+
+body{
+   
+  background-color: #824332;
+
+}
+
+
+.page-links li a , .page-links li .logoutbttn{
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: #6C3829 0 2px 4px,#6C3829 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #6C3829;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  padding-left: 16px;
+  padding-right: 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+img {
+      border-bottom-right-radius: 1em;
+            border-bottom-left-radius: 1em;
+
+
+}
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+

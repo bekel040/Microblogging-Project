@@ -1,0 +1,13 @@
+mixin secondnavBar
+
+  nav
+    ul.page-links
+      li
+        a(href='/profile')  Profile 
+      |
+      li
+        a(href='/chatroom')  Chat Room  
+      |                     
+      li
+        form(action='/api/lougout', method='post')
+          button.logoutbttn(type='submit')  Logout

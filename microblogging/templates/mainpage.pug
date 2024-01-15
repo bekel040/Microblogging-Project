@@ -1,0 +1,53 @@
+include ../templates/firstnavbar
+
+//- doctype html
+//- html(lang='en')
+//-   head
+//-     meta(charset='UTF-8')
+//-     |         
+//-     title Coffee Chat
+//-     |         
+//-     link(href='css/landingpage.css', rel='stylesheet')
+//-     |         
+//-     link(href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css', rel='stylesheet')
+//-     |
+//-     link(href='https://api.fontshare.com/v2/css?f[]=comico@400&f[]=bespoke-stencil@700,400&f[]=boxing@400&f[]=telma@700,400&f[]=zina@400&display=swap', rel='stylesheet')
+//-   |     
+//-   body
+//-     .main
+//-       +navBar  
+//-       |             
+//-       .container
+//-         .left-side          |     
+//-           img.beans(src='/images/beans.jpg', alt='Coffee beans')  
+//-         |                 
+//-         .right-side
+//-           h1  Welcome to Coffee Chats 
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    |         
+    title Coffee Chat
+    |         
+    link(href='css/landingpage.css', rel='stylesheet')
+    |         
+    link(href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css', rel='stylesheet')
+    |         
+    link(href='https://api.fontshare.com/v2/css?f[]=comico@400&f[]=bespoke-stencil@700,400&f[]=boxing@400&f[]=telma@700,400&f[]=zina@400&f[]=neco@1,900,400&display=swap' rel='stylesheet')
+  |     
+  body
+    .main
+      +firstnavBar  
+      |             
+      .container
+        .main-header
+          img(src='/images/coffee.jpg', alt='Coffee Cups', style='width:100%;')
+          |   
+          .centered 
+            .logo 
+              .intro Welcome to 
+            
+              .chat  Coffee 
+              .chat2 Chats 
+

@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Gravitas+One&family=Space+Mono&display=swap');
+
+
+h1{
+    font-size: 5em;
+    font-family: 'Gravitas One', serif;
+    text-align: center;
+    color: #824332;
+}
+.top-half{
+    
+    display: flex;
+    height: 50%;
+    padding: 5em 5em 0em;
+
+}
+.top{
+    flex: 1;
+}
+
+.top:first-child {
+    margin-right: 20px;
+}
+.mode{
+    background-color: #703B2B;
+    
+}
+.main-page{
+     
+    margin-top: 1em;
+    background-color: #f9f6f2;
+    border-radius: 1em;
+    padding-bottom: 0.5em;
+    max-width: 97%;
+    margin: 0 auto;
+
+}
+.page-links {
+
+  background-color: #f9f6f2;
+
+  list-style: none;
+  padding: 0.5em;
+  display: flex;
+  margin: 0;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  border-bottom: 3px solid #6C3829;
+}
+.page-links li {
+  margin-right: 2rem;
+}
+.page-links li a, .page-links li form .logoutbttn {
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: #6C3829 0 2px 4px,#6C3829 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #6C3829;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  padding-left: 16px;
+  padding-right: 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+
+.message-banner{
+  background-color: #824332;
+  border-radius: 0.5rem;
+  text-align: center;
+  font-family: "PT Mono", monospace;
+  font-size: 1em;
+  padding: 0.4em;
+  margin: 0 auto;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  width: 50%;
+  color: #F9F6F2;
+  
+
+}
+.bottom-half .form{
+    border-radius: 1em;
+    align-items: center;
+    justify-content: center;
+    background-color: #824332;
+    margin: 0 auto;
+    padding: 1em 1em;
+    width: 50%;
+    height: 20%;
+
+}
+.form .login-box{
+    width: 100%;
+    height: 50%;
+    position: relative;
+    background-color: #f4ece2;
+    border-radius: 1em;
+    margin-bottom: 0.5em;
+
+
+}
+.login-box input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+        padding: 1em;
+    background: transparent;
+    border-radius: 1em;
+    font-size: 1em;
+    
+}
+.login-box i {
+    position: absolute;
+    font-size: 1.5em;
+
+    right: 1em;
+    top: 30%;
+    transform: translate(-50%);
+
+}
+
+.createbttn, .submitbttn{
+    align-items: center;
+  appearance: none;
+  background-color: #FCFCFD; 
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: #6C3829 0 2px 4px,#6C3829 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #6C3829;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  padding-left: 16px;
+  padding-right: 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+ 
+
+
+
+
