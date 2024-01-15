@@ -1,4 +1,3 @@
-Name: Asanti Bekele 
 
 IMAGE SOURCE: 
 https://unsplash.com/photos/brown-ceramic-teacup-XtUd5SiX464
